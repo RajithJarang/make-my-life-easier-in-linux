@@ -22,7 +22,7 @@ alias fuckoff="exit"
 alias killurself="sudo /sbin/shutdown"
 
 #package management
-alias stfupdate='sudo apt-get update && sudo apt-get upgrade'
+alias stfupdate='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove'
 
 #top eating memory
 alias fatmf="ps auxf | sort -nr -k 4"
